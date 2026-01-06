@@ -46,6 +46,19 @@ Vertex AI Agent Engine, a part of the Vertex AI Platform, is a set of services t
 -   **Agentic Workflow**: Built on **LangGraph** to manage complex state and agent interactions.
 -   **Cloud Deployment**: Deploys seamlessly to **Vertex AI Agent Engine** for scalable, serverless execution.
 
+## Meet the Agents
+
+Here is a simple breakdown of the AI agents which we used in this application:
+
+### 1. Analyzer Agent (The Recruiter)
+Think of this agent as a smart recruiter. It reads your resume and the job description you provide. Its job is to understand your skills, your experience, and identify any areas where you might be missing what the job requires (gaps). It builds a profile of you so the interviewer knows what to ask.
+
+### 2. Interviewer Agent (AQUA)
+This is your interviewer, named **AQUA**. AQUA is designed to be professional yet engaging. It uses the profile created by the Analyzer Agent to ask you questions. It doesn't just ask random questions; it adapts to your answers and specifically targets your skills and any gaps found in your resume. It conducts the interview one question at a time, just like a real person.
+
+### 3. Evaluator Agent (The Evaluator)
+After the interview is over, the Evaluator Agent steps in. It acts like a hiring manager reviewing the transcript. It looks at every question and every answer you gave. It scores your performance, identifies your strengths and weaknesses, and gives you a final score along with detailed feedback on how you can improve.
+
 ## Architecture
 
 The system follows a multi-agent workflow orchestrated by a state graph:
