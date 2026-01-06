@@ -182,6 +182,9 @@ To monitor the agent's performance and debug issues:
 
 ![alt text](images/image_3.png)
 
+## Interview Simulator Artifacts storage:
+![alt text](images/image_4.png)
+
 ## Project Structure
 
 -   `agents/`: Contains the logic for Analyzer, Interviewer, and Evaluator agents.
