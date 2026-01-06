@@ -1,0 +1,8 @@
+google-cloud-aiplatform 
+langchain-google-vertexai 
+langgraph 
+vertexai
+pydantic
+PyPDF2
+python-docx
+pydantic_settings
